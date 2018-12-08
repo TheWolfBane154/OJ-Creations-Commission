@@ -3,6 +3,8 @@ var bot = new Discord.Client();
 const fs = require("fs");
 var prefix = "";
 
+bot.commands = new Discord.Collection()
+
 fs.readdir("./commands/", (err, files) => {
   console.log("Loading commands...");
   if (err) return console.log(`Command loading failed!`);
@@ -17,4 +19,4 @@ console.log("Alive boi")
 
 
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.Token)
