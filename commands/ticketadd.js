@@ -6,6 +6,7 @@ let em = new Discord.RichEmbed()
 .setTitle("Ticket Created")
 .setDescription("Think you for createing an offer for a product!")
 .addField("Ticket number:", number)
+.setColor("ORANGE")
 
 message.channel.send({embed: em})
 server.createChannel(text, number)
