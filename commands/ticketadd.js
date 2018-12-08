@@ -10,3 +10,7 @@ let em = new Discord.RichEmbed()
 message.channel.send({embed: em})
 server.createChannel(text, number)
 }
+
+module.exports.help = {
+  "name": "help"
+}
