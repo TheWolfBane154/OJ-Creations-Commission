@@ -12,5 +12,5 @@ server.createChannel(text, number)
 }
 
 module.exports.help = {
-  "name": "help"
+  "name": "newticket"
 }
