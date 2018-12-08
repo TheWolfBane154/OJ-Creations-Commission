@@ -1,4 +1,4 @@
-module.exports.run(bot, message, args, Discord) => {
+module.exports.run = (bot, message, args, Discord) => {
 let server = message.guild
 let number = Math.floor(Math.random) * 1000
 
