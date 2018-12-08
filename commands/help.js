@@ -1,4 +1,4 @@
-module.exports.run(bot, message, args, Discord) => {
+module.exports.run = (bot, message, args, Discord) => {
 
 let em = new Discord.RichEmbed()
 .setTitle("OJ Creations Bot Help menu!")
