@@ -2,6 +2,8 @@ module.exports.run = (bot, message, args, Discord) => {
 let server = message.guild
 let number = Math.floor(Math.random) * 1000
 
+console.log("I work")
+
 let em = new Discord.RichEmbed()
 .setTitle("Ticket Created")
 .setDescription("Think you for createing an offer for a product!")
