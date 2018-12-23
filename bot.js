@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 var bot = new Discord.Client();
 const fs = require("fs");
-var prefix = "!";
+var prefix = process.env.prefix;
 
 bot.commands = new Discord.Collection()
 
