@@ -13,7 +13,7 @@ let emb = new Discord.RichEmbed()
 .addField("Reason for contact:", joinargs)
 .setColor("GREEN")
 
-bot.users.get("369256915479560192").send({embed: emb})
+bot.users.get("513103852409716736").send({embed: emb})
 
 }
 
